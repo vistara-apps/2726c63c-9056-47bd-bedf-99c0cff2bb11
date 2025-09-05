@@ -318,7 +318,7 @@ export default function HomePage() {
       >
         <EmergencyAlert
           contacts={mockEmergencyContacts}
-          currentLocation={currentLocation}
+          currentLocation={currentLocation || undefined}
           onSendAlert={handleSendEmergencyAlert}
         />
       </ActionSheet>
