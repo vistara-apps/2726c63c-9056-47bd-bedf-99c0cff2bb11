@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   description: 'Know what to say, instantly. State-specific legal rights and scenario-based scripts for law enforcement interactions.',
   keywords: 'legal rights, law enforcement, scripts, emergency, recording',
   authors: [{ name: 'LexiGuard Team' }],
-  viewport: 'width=device-width, initial-scale=1',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
   themeColor: '#1e293b',
 };
 
